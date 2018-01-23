@@ -1,7 +1,7 @@
 
 .main{
-    background-color: #fff;
-/*     position: relative; */
+  /*  background-color: #fff;
+     position: relative; */
 
 }
 
@@ -35,7 +35,7 @@
 }
 .main-header{
     margin-top: -20px;
-    min-height: 350px;
+    min-height: 220px;
 }
 .main-header-image{
     background-image: url('../img/top.png');
@@ -43,7 +43,7 @@
 }
 .main-header .motto{
     color: #FFFFFF;
-    padding-top: 20vh;
+    padding-top: 7vh;
     text-align: center;
     z-index: 3;
 }
@@ -331,4 +331,4 @@
   overflow: visible;
 }
 
-.footer { background: url(../img/footer-bg.png) repeat-x; width: 100%; height: 122px; margin-top: 20px; color: #fff; padding-top: 85px; font-size: 12px; text-align: center; padding-bottom: 20px;}
+.footer { background: url(../img/footer-bg.png) repeat-x; width: 100%; height: 122px; margin-top: 20px; color: #fff; padding-top: 85px; font-size: 12px; text-align: center; padding-bottom: 20px; position: relative; bottom: 0px; }

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="assets/img/icon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Stardom - Profile</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS   -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-color="darkblue" data-image="assets/img/sidebar.png">
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/img/logo.png">
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="dashboard.html">
+                        <i class="pe-7s-home"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="profile.html">
+                        <i class="pe-7s-user"></i>
+                        <p>Profile</p>
+                    </a>
+                </li>
+				  <li>
+                    <a href="#">
+                        <i class="pe-7s-power"></i>
+                        <p>Log out</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">User Profile</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <p>
+										My Account
+										<b class="caret"></b>
+									</p>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Edit Profile</a></li>
+                                <li><a href="#">Change Password</a></li>
+                              </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Log out</p>
+                            </a>
+                        </li>
+						<li class="separator hidden-lg hidden-md"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Edit Profile</h4>
+                            </div>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Email (disabled)</label>
+                                                <input class="form-control" disabled="" placeholder="Email" value="myname@gmail.com" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>First Name</label>
+                                                <input class="form-control" placeholder="Company" value="Emmanuel" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Last Name</label>
+                                                <input class="form-control" placeholder="Last Name" value="Enemakwu" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Address</label>
+                                                <input class="form-control" placeholder="Home Address" value="Plot 384, J.F. Kennedy Street" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>State</label>
+                                                <select name="states_of_nigeria" id="select" class="form-control">
+													<option selected="">Select state</option>
+													<option>ABUJA FCT</option>
+													<option>ABIA</option>
+													<option>ADAMAWA</option>
+													<option>AKWA IBOM</option>
+													<option>ANAMBRA</option>
+													<option>BAUCHI</option>
+													<option>BAYELSA</option>
+													<option>BENUE</option>
+													<option>BORNO</option>
+													<option>CROSS RIVER</option>
+													<option>DELTA</option>
+													<option>EBONYI</option>
+													<option>EDO</option>
+													<option>EKITI</option>
+													<option>ENUGU</option>
+													<option>GOMBE</option>
+													<option>IMO</option>
+													<option>JIGAWA</option>
+													<option>KADUNA</option>
+													<option>KANO</option>
+													<option>KATSINA</option>
+													<option>KEBBI</option>
+													<option>KOGI</option>
+													<option>KWARA</option>
+													<option>LAGOS</option>
+													<option>NASSARAWA</option>
+													<option>NIGER</option>
+													<option>OGUN</option>
+													<option>ONDO</option>
+													<option>OSUN</option>
+													<option>OYO</option>
+													<option>PLATEAU</option>
+													<option>RIVERS</option>
+													<option>SOKOTO</option>
+													<option>TARABA</option>
+													<option>YOBE</option>
+													<option>ZAMFARA</option>
+												</select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Phone Number</label>
+                                                <input class="form-control" value="080 000 0000" type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Date of Birth</label>
+                                                <div class="controls">
+                                                    <input class="datepicker form-control" type="text" value="12/09/1990" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>About me</label>
+                                                <textarea rows="3" class="form-control" placeholder="Give a brief info about yourself"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                    	<div class="col-md-6">
+                                        	<div class="form-group">
+                                            	<label>Facebook</label>
+                                                <input class="form-control" placeholder="facebook profile link" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                        	<div class="form-group">
+                                            	<label>Twitter</label>
+                                                <input class="form-control" placeholder="Twitter profile link" type="text">
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        	<div class="form-group">
+                                            	<label>LinkedIn</label>
+                                                <input class="form-control" placeholder="Linkedin profile link" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                        	<div class="form-group">
+                                            	<label>SoundCloud</label>
+                                                <input class="form-control" placeholder="SoundCloud profile link" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-info btn-fill pull-right">Update Profile</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-user">
+                            <div class="image">
+                                <img src="assets/img/profile-bg.png" alt="...">
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                     <a href="#">
+                                    <img class="avatar border-gray" src="assets/img/default-avatar.png" alt="...">
+
+                                      <h4 class="title">Emmanuel Enemakwu <br>
+                                    	<small>Song writer</small>
+                                      </h4>
+                                      
+                                    </a>
+                                    <hr>
+                                </div>
+                                <p class="description text-center" style="margin-top: 10px;">
+                             	<div class="upload-btn-wrapper">
+                                  <button class="btn">Change Profile image</button>
+                                  <input type="file" name="myfile" />
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Help
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script>. Made with <i class="pe-7s-like"></i> by <a href="#">Stardom</a>.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+</div>
+<!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+	<script src="assets/js/light-bootstrap-dashboard.js"></script>
+
+	<!-- Light Bootstrap ! -->
+	<script src="assets/js/main.js"></script>
+<script src="assets/jquery/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript">
+	 $('.datepicker').datepicker({
+    	 weekStart:1,
+    	 color: 'blue'
+	 });
+	</script>
+
+</body>
+</html>

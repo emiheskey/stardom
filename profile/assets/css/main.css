@@ -1,0 +1,251 @@
+﻿@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+.all-icons [class*="pe-"]{
+    font-size: 40px;
+}
+.all-icons input{
+    border: 0;
+}
+.all-icons .font-icon-detail{
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+.all-icons .font-icon-detail input{
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+#map{
+    position:relative;
+    width:100%;
+    height: calc(100% - 60px);
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .logo {
+	text-align: center;
+	background: #F4F7FF;
+	border-right: #f3f3f3;
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+
+.dash-widget {
+	margin: 20px;
+}
+.dash-widget .col-md-4 {
+	width: 30.3%;
+}
+.dashget {
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0px 6px;
+	color: #fff;
+}
+.dashget i {
+font-size: 5em;
+float: left;
+width: 70px;
+margin-right: 20px;
+}
+.dashget span {
+	font-size: 2em;
+	padding: 0; margin: 0;
+}
+.dashget h4 { font-size: 16px; padding: 0; margin: 0;}
+.dashget.purple {
+	background: purple;
+}
+.dashget.orange {
+	background: orange;
+}
+.dashget.blue {
+	background: #036;
+}
+.dashget.teal {
+	background: teal;
+}
+p.margin20 {
+	margin: 20px;
+}
+a.btn-view {
+	background: #050D5F;
+	color: #fff;
+	border: 2px solid #050D5F;
+	}
+a.btn-view:hover {
+	background: transparent;
+	color: #00AEEE;
+	border: 2px solid #00AEEE;
+}
+h4.useful {
+	margin: 0; padding: 10px;
+	background: url('../../assets/img/profile-bg.png');
+}
+ul.listuseful {
+	margin: 0; padding: 0 0 0 20px;
+}
+ul.listuseful li {
+	margin: 5px 0;
+}
+/* Manage Interview */
+.manage {
+	padding: 10px;
+}
+.manage .col-md-4 {
+	width: 31%;
+}
+.manage .item-inter{
+	border-radius: 5px;
+	min-height: 330px;
+	border: 1px solid #f3f3f3;
+	margin: 0px 20px 20px 0px;
+	padding: 0;
+	overflow: hidden;
+}
+.manage .item-inter .top-side {
+	margin: 0; padding: 10px 10px 15px 10px;
+	background: #f3f3f3 url('../../assets/img/sidebar.png');
+	font-size: 1.5em;
+	overflow: hidden;
+	border-bottom: 1px solid #f9f9f9
+}
+.manage .item-inter .top-side span {
+	font-size: 14px;
+	padding-top: 20px;
+	color: #666;
+}
+.manage .item-inter .top-side img {
+	max-width: 100px;
+	float: left;
+	 margin-right: 20px;
+	 border: 1px solid #ccc;
+}
+.manage .item-inter .table {
+	border-color: #ffff;
+}
+.manage .item-inter .btn
+{
+	display: none;
+}
+.manage .item-inter:hover .btn
+{
+	display: inline-block;
+}
+.manage .item-inter td.rating {
+	color: royalblue;
+}
+/* Interview page */
+.interview-side, .interview-main {
+	padding: 0 10px;
+	overflow: hidden;
+}
+.interview-side img {
+	max-width: 100px;
+	float:left;
+	margin: 20px;
+	border: 1px solid #f3f3f3;
+}
+.interview-side h4, .interview-main h4 {
+	margin: 5px 0px; padding: 5px 0px;
+}
+.interview-side ul {
+	margin: 10px 0px; padding: 10px;
+	list-style: disc; 
+}
+.interview-side ul li {
+	display: block;
+	border-top: 1px solid #f3f3f3;
+}
+.interview-side ul li a {
+	 display: block;
+	 padding: 10px;
+	 width: 100%;
+}
+.interview-side ul li a:hover {
+	background: #f9f9f9;
+	color: #666;
+}
+.interview-side ul li a.active {
+	background: #f3f3f3 url('../../assets/img/interview-arrow.png') right no-repeat;
+	color: #666;
+}
+span.form-num {
+	font-size: 1.6em;
+	padding: 5px 12px;
+	border-radius: 50%;
+	background: #09C;
+	color: #fff;
+	top: 5px;
+	position: relative;
+}
+
+.grey {
+	background: #f3f3f3;
+	display: block;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+h3.in {margin: 0; padding: 5px 0px;}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  left: 22%;
+}
+
+.upload-btn-wrapper .btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  margin: 0 auto;
+}
